@@ -73,19 +73,19 @@ margin-right: 60px;
 	
 	
 	
-.post-go-top, .social-box {
+.post_to_top, .social-box {
     text-align: center;
 }	
 	
 	
-.post-go-top {
+.post_to_top {
     position: absolute;
     
     left: 50%;
     margin-left: -20px;
 }
 
-.post-go-top {
+.post_to_top {
     border: 1px solid #EBEBEB;
     width: 40px;
     height: 40px;
@@ -93,11 +93,12 @@ margin-right: 60px;
     border-radius: 50%;
     color: #9b9fa6;
     font-size: 22px;
+	cursor: pointer;
     -webkit-transition: .3s;
     transition: .3s;
 }
 
-.post-go-top, .social-box-button {
+.post_to_top, .social-box-button {
     background: #fff;
     display: inline-block;
 }
