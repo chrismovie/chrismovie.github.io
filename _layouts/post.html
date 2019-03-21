@@ -17,17 +17,27 @@ layout: default
       <article class='c-post c-post-content' itemscope itemtype='http://schema.org/BlogPosting'>
 
         
-
+	
         <div class='c-content' itemprop='articleBody'>
           {% include page-image.html %}
 		  
-		<h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
-
-        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>  
+		  {% if page.image %}
+		  <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+		  <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>  
        <div >{{ content }}</div>
+		  {% else %}
+		  <h1 class='c-post__title_without_image u-text-center'>{{ page.title }}</h1>
+		  
+		  <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>  
+       <div >{{ content }}</div>
+			{% endif %}
+        
+	   </div>
+		
+		
 		 
 		  
-        </div>
+        
 
 		
 		

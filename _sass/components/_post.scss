@@ -47,7 +47,17 @@ margin-right: 60px;
       line-height: double($line-height-medium);
     }
   }
+  
+  &__title_without_image {
+	padding-top: 50px;
+    font-size: double($font-size-tiny);
 
+    @include mq($from: tablet) {
+      font-size: double($font-size-small);
+      line-height: double($line-height-medium);
+    }
+  }
+  
   &__date {
     display: block;
     text-align: center;
