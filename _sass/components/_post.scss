@@ -67,3 +67,48 @@ margin-right: 60px;
 .c-post-content {
 	background: white;
 	}
+
+
+	
+	
+	
+	
+.post-go-top, .social-box {
+    text-align: center;
+}	
+	
+	
+.post-go-top {
+    position: absolute;
+    
+    left: 50%;
+    margin-left: -20px;
+}
+
+.post-go-top {
+    border: 1px solid #EBEBEB;
+    width: 40px;
+    height: 40px;
+    line-height: 34px;
+    border-radius: 50%;
+    color: #9b9fa6;
+    font-size: 22px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.post-go-top, .social-box-button {
+    background: #fff;
+    display: inline-block;
+}
+
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
