@@ -7,4 +7,6 @@ tags: [jekyll]
 image: '/images/posts/image.jpg'
 ---
 
+<p class='c-content__cc-content'>
 Since I work with Jekyll create site is amazing !!!
+</p>
