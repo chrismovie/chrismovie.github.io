@@ -7,11 +7,13 @@
 
 # Site settings
 title:              Mountains
-logo:               # Logo image URL
+logo:               'http://blog.krzysztofplonka.pl/images/pages/logo.png'
 email:              info@krzysztofplonka.pl
 description:        Minimal Blog & Magazine Jekyll Theme
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'http://blog.krzysztofplonka.pl' # The base hostname & protocol for your site
+my_url:             'http://krzysztofplonka.pl'
+name:               Krzysztof Płonka
 github_username:    chrismovie
 twitter_username:   
 instagram_username: 
