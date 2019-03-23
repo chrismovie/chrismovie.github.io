@@ -7,7 +7,7 @@
 
 # Site settings
 title:              Mountains
-logo:               'http://blog.krzysztofplonka.pl/images/pages/logo.png'
+logo:               http://blog.krzysztofplonka.pl/images/pages/logo.png
 email:              info@krzysztofplonka.pl
 description:        Minimal Blog & Magazine Jekyll Theme
 baseurl:            '' # The subpath of your site, e.g. /blog
