@@ -20,7 +20,7 @@ instagram_username:
 
 markdown:  kramdown
 permalink: pretty
-paginate:  13
+paginate:  15
 sass:
   style: compressed
 
