@@ -7,7 +7,16 @@
   transform: translateX(0);
   margin-bottom: double($base-spacing-unit);
   background-color: $bg-color-gray;
-  border-bottom: 1px solid $color-border;
+ /* border-bottom: 1px solid $color-border; */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);  
+	&:before, &:after {
+    border-width: 0;
+    border-style: solid;
+    border-color: #e2e8f0;
+}
+  
+  
+  
 
   &__image-link {
     display: block;
@@ -103,3 +112,4 @@
     fill: $color-white;
   }
 }
+
