@@ -23,12 +23,48 @@ layout: default1
 		  
 		  {% if page.image %}
 		  <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
-		  <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>  
+		  <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: " %d " }}
+	  {% assign m = page.date | date: "%-m" %}
+
+		{% case m %}
+			{% when '1' %} Styczeń
+			{% when '2' %} Luty
+			{% when '3' %} Marzec
+			{% when '4' %} Kwiecień
+			{% when '5' %} Maj
+			{% when '6' %} Czerwiec
+			{% when '7' %} Lipiec
+			{% when '8' %} Sierpień
+			{% when '9' %} Wrzesień
+			{% when '10' %} Październik
+			{% when '11' %} Listopad
+			{% when '12' %} Grudzień
+        {% endcase %}      
+	  
+  {{ page.date | date: "%Y" }}</time>  
        <div >{{ content }}</div>
 		  {% else %}
 		  <h1 class='c-post__title_without_image u-text-center'>{{ page.title }}</h1>
 		  
-		  <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>  
+		  <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: " %d " }}
+	  {% assign m = page.date | date: "%-m" %}
+
+		{% case m %}
+			{% when '1' %} Styczeń
+			{% when '2' %} Luty
+			{% when '3' %} Marzec
+			{% when '4' %} Kwiecień
+			{% when '5' %} Maj
+			{% when '6' %} Czerwiec
+			{% when '7' %} Lipiec
+			{% when '8' %} Sierpień
+			{% when '9' %} Wrzesień
+			{% when '10' %} Październik
+			{% when '11' %} Listopad
+			{% when '12' %} Grudzień
+        {% endcase %}      
+	  
+  {{ page.date | date: "%Y" }}</time>  
        <div >{{ content }}</div>
 			{% endif %}
         
