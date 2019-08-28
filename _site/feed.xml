@@ -3,10 +3,10 @@
   <channel>
     <title>Mountains</title>
     <description>Minimal Blog &amp; Magazine Jekyll Theme</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Aug 2019 21:47:26 +0200</pubDate>
-    <lastBuildDate>Tue, 27 Aug 2019 21:47:26 +0200</lastBuildDate>
+    <link>http://blog.krzysztofplonka.pl/</link>
+    <atom:link href="http://blog.krzysztofplonka.pl/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 28 Aug 2019 15:00:25 +0200</pubDate>
+    <lastBuildDate>Wed, 28 Aug 2019 15:00:25 +0200</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
 
     
@@ -52,19 +52,19 @@ Poniżej fotorelacja z wyprawy.
 &lt;img src=&quot;http://blog.krzysztofplonka.pl/images/posts/DSC_0054.JPG&quot; class=&quot;c-content__cc-content__image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Aug 2019 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2019/08/27/post/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/08/27/post/</guid>
+        <link>http://blog.krzysztofplonka.pl/2019/08/27/post/</link>
+        <guid isPermaLink="true">http://blog.krzysztofplonka.pl/2019/08/27/post/</guid>
       </item>
     
       <item>
         <title>Witam wszystkich !!!</title>
         <description>&lt;p class=&quot;c-content__cc-content&quot;&gt;
-Witam na moim blogu poświęconym wędrówkom górskim.
+Witam na moim blogu poświęconym wędrówkom górskim i zdjęciom na nich wykonanych.
 &lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Aug 2019 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2019/08/26/post/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/08/26/post/</guid>
+        <link>http://blog.krzysztofplonka.pl/2019/08/26/post/</link>
+        <guid isPermaLink="true">http://blog.krzysztofplonka.pl/2019/08/26/post/</guid>
       </item>
     
 
@@ -83,7 +83,7 @@ Witam na moim blogu poświęconym wędrówkom górskim.
 
 &lt;p&gt;Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.&lt;/p&gt;
 </description>
-            <link>http://localhost:4000/about.html</link>
+            <link>http://blog.krzysztofplonka.pl/about.html</link>
           </item>
         
       

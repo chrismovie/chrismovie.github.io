@@ -5,6 +5,7 @@
 .c-post-card {
   overflow: hidden;
   transform: translateX(0);
+  transition-duration: 0.5s;
   margin-bottom: double($base-spacing-unit);
   background-color: $bg-color-gray;
  /* border-bottom: 1px solid $color-border; */
@@ -63,6 +64,7 @@
     &:hover {
       text-decoration: none;
       color: $color-text;
+	  
     }
   }
 
@@ -89,8 +91,11 @@
   }
 
   &:hover {
+  transition-duration: 0.5s;
+  box-shadow: none;
     .c-post-card__image-link:after {
       opacity: .1;
+	
     }
 
     .c-post-card__title {
