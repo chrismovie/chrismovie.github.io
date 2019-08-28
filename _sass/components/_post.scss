@@ -6,7 +6,7 @@
 .c-content {
 
 	&__cc-content {
-	@include mq($from: tablet) {
+	@include mq($from: mobile) {
 		padding: 20px 6px 100px 6px; 
 		}
 	padding: 20px 60px 100px 60px; 
