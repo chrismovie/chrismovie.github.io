@@ -6,8 +6,10 @@
 .c-content {
 
 	&__cc-content {
-		padding: 20px 60px 100px 60px; 
-		
+	@include mq($from: tablet) {
+		padding: 20px 6px 100px 6px; 
+		}
+	padding: 20px 60px 100px 60px; 
 		
 		&__image {
     margin: 0 auto $base-spacing-unit;
