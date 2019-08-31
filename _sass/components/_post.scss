@@ -7,15 +7,15 @@
 
 	&__cc-content {
 	@include mq($from: mobile) {
-		padding: 20px 6px 100px 6px; 
+		padding: 20px 6px 10px 6px; 
 		}
-	padding: 20px 60px 100px 60px; 
+	padding: 20px 60px 10px 60px; 
 		
 		&__image {
     margin: 0 auto $base-spacing-unit;
 	padding-bottom: 10px;
   }
-		
+	
 		
 		
 	} 	
@@ -24,6 +24,7 @@
 	
 }
 
+.blue { color: #207cdf; }
 
 .c-post {
   margin: 0 auto;
