@@ -4,4 +4,4 @@ title: Kontakt
 image:
 ---
 
-<p class="u-text-center"><a href="mailto:info@krzysztofplonka.pl">info@krzysztofplonka.pl</a></p>
+<h5 class="u-text-center"><a href="mailto:info@krzysztofplonka.pl">info@krzysztofplonka.pl</a></h5>

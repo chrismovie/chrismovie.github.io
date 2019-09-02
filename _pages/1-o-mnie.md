@@ -4,4 +4,4 @@ title: O mnie
 image:
 ---
 
-Nazywam się Krzysztof Płonka, jestem wielbicielem górskich pejzaży. 
+<h5>Nazywam się Krzysztof Płonka, jestem wielbicielem górskich pejzaży. </h5>
