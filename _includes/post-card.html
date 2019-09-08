@@ -20,7 +20,7 @@
       </p>
 
       <span class='c-post-card__date'>
-	  {{ post.date | date: " %d " }}
+	  {{ post.date | date: " %-d " }}
 	  {% assign m = post.date | date: "%-m" %}
 
 		{% case m %}
