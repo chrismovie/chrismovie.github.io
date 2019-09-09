@@ -5,10 +5,26 @@
     <description>Minimal Blog &amp; Magazine Jekyll Theme</description>
     <link>http://blog.krzysztofplonka.pl/</link>
     <atom:link href="http://blog.krzysztofplonka.pl/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Sep 2019 12:00:07 +0200</pubDate>
-    <lastBuildDate>Sun, 08 Sep 2019 12:00:07 +0200</lastBuildDate>
+    <pubDate>Mon, 09 Sep 2019 18:13:03 +0200</pubDate>
+    <lastBuildDate>Mon, 09 Sep 2019 18:13:03 +0200</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
 
+    
+      <item>
+        <title>Moje Portfolio.</title>
+        <description>&lt;p class=&quot;c-content__cc-content&quot;&gt;
+&lt;p&gt;Dzisiaj pracuję nad sekcją moje portfolio na stronie &lt;a href=&quot;http://krzysztofplonka.pl&quot;&gt;http://krzysztofplonka.pl&lt;/a&gt; Zamieszczam w nim cztery projekty:&lt;/p&gt;
+1. Phonebook. &lt;a href=&quot;http://phone.krzysztofplonka.pl&quot;&gt;http://phone.krzysztofplonka.pl&lt;/a&gt; Login i hasło podaję po wysłaniu do mnie maila :)&lt;br /&gt;
+Tutaj wykonałem zarówno back-end (Silex) jak i front-end (Angular.js).&lt;br /&gt;
+2. Mój blog &lt;a href=&quot;http://blog.krzysztofplonka.pl&quot;&gt;http://blog.krzysztofplonka.pl&lt;/a&gt;&lt;br /&gt;
+3. Moje ulubione płyty jazzowe. &lt;a href=&quot;http://jazz.krzysztofplonka.pl&quot;&gt;http://jazz.krzysztofplonka.pl&lt;/a&gt;&lt;br /&gt;
+4. Strona na zlecenie: Leoono - zdrowe płatki.&lt;a href=&quot;https://leoono.pl&quot;&gt; https://leoono.pl&lt;/a&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Sep 2019 00:00:00 +0200</pubDate>
+        <link>http://blog.krzysztofplonka.pl/2019/09/09/post/</link>
+        <guid isPermaLink="true">http://blog.krzysztofplonka.pl/2019/09/09/post/</guid>
+      </item>
     
       <item>
         <title>Koncert Organowy.</title>
